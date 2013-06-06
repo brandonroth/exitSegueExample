@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CAA2AC4717612380006A9519 /* CommonController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA2AC4617612380006A9519 /* CommonController.m */; };
+		CAB1F6E1175FB868005127B7 /* YellowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB1F6E0175FB868005127B7 /* YellowController.m */; };
+		CAB1F6E4175FB889005127B7 /* RedController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB1F6E3175FB889005127B7 /* RedController.m */; };
+		CAB1F6E7175FC68C005127B7 /* BlueController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB1F6E6175FC68C005127B7 /* BlueController.m */; };
+		CAB1F6EA175FC6A0005127B7 /* GreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB1F6E9175FC6A0005127B7 /* GreenController.m */; };
 		CACF2CD81757A948001B6000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACF2CD71757A948001B6000 /* UIKit.framework */; };
 		CACF2CDA1757A948001B6000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACF2CD91757A948001B6000 /* Foundation.framework */; };
 		CACF2CDC1757A948001B6000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACF2CDB1757A948001B6000 /* CoreGraphics.framework */; };
@@ -17,11 +22,19 @@
 		CACF2CEC1757A948001B6000 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CACF2CEB1757A948001B6000 /* Default@2x.png */; };
 		CACF2CEE1757A948001B6000 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CACF2CED1757A948001B6000 /* Default-568h@2x.png */; };
 		CACF2CF11757A948001B6000 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CACF2CEF1757A948001B6000 /* MainStoryboard.storyboard */; };
-		CACF2CF41757A948001B6000 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CACF2CF31757A948001B6000 /* MasterViewController.m */; };
-		CACF2CF71757A948001B6000 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CACF2CF61757A948001B6000 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CAA2AC4517612380006A9519 /* CommonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonController.h; sourceTree = "<group>"; };
+		CAA2AC4617612380006A9519 /* CommonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonController.m; sourceTree = "<group>"; };
+		CAB1F6DF175FB868005127B7 /* YellowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellowController.h; sourceTree = "<group>"; };
+		CAB1F6E0175FB868005127B7 /* YellowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellowController.m; sourceTree = "<group>"; };
+		CAB1F6E2175FB889005127B7 /* RedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedController.h; sourceTree = "<group>"; };
+		CAB1F6E3175FB889005127B7 /* RedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedController.m; sourceTree = "<group>"; };
+		CAB1F6E5175FC68C005127B7 /* BlueController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueController.h; sourceTree = "<group>"; };
+		CAB1F6E6175FC68C005127B7 /* BlueController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueController.m; sourceTree = "<group>"; };
+		CAB1F6E8175FC6A0005127B7 /* GreenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenController.h; sourceTree = "<group>"; };
+		CAB1F6E9175FC6A0005127B7 /* GreenController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenController.m; sourceTree = "<group>"; };
 		CACF2CD41757A948001B6000 /* ReverseSegues.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReverseSegues.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CACF2CD71757A948001B6000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CACF2CD91757A948001B6000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,10 +49,6 @@
 		CACF2CEB1757A948001B6000 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		CACF2CED1757A948001B6000 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		CACF2CF01757A948001B6000 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		CACF2CF21757A948001B6000 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		CACF2CF31757A948001B6000 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		CACF2CF51757A948001B6000 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		CACF2CF61757A948001B6000 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,11 +97,17 @@
 			children = (
 				CACF2CE61757A948001B6000 /* AppDelegate.h */,
 				CACF2CE71757A948001B6000 /* AppDelegate.m */,
+				CAA2AC4517612380006A9519 /* CommonController.h */,
+				CAA2AC4617612380006A9519 /* CommonController.m */,
 				CACF2CEF1757A948001B6000 /* MainStoryboard.storyboard */,
-				CACF2CF21757A948001B6000 /* MasterViewController.h */,
-				CACF2CF31757A948001B6000 /* MasterViewController.m */,
-				CACF2CF51757A948001B6000 /* DetailViewController.h */,
-				CACF2CF61757A948001B6000 /* DetailViewController.m */,
+				CAB1F6E8175FC6A0005127B7 /* GreenController.h */,
+				CAB1F6E9175FC6A0005127B7 /* GreenController.m */,
+				CAB1F6E5175FC68C005127B7 /* BlueController.h */,
+				CAB1F6E6175FC68C005127B7 /* BlueController.m */,
+				CAB1F6E2175FB889005127B7 /* RedController.h */,
+				CAB1F6E3175FB889005127B7 /* RedController.m */,
+				CAB1F6DF175FB868005127B7 /* YellowController.h */,
+				CAB1F6E0175FB868005127B7 /* YellowController.m */,
 				CACF2CDE1757A948001B6000 /* Supporting Files */,
 			);
 			path = ReverseSegues;
@@ -180,8 +195,11 @@
 			files = (
 				CACF2CE41757A948001B6000 /* main.m in Sources */,
 				CACF2CE81757A948001B6000 /* AppDelegate.m in Sources */,
-				CACF2CF41757A948001B6000 /* MasterViewController.m in Sources */,
-				CACF2CF71757A948001B6000 /* DetailViewController.m in Sources */,
+				CAB1F6E1175FB868005127B7 /* YellowController.m in Sources */,
+				CAB1F6E4175FB889005127B7 /* RedController.m in Sources */,
+				CAB1F6E7175FC68C005127B7 /* BlueController.m in Sources */,
+				CAB1F6EA175FC6A0005127B7 /* GreenController.m in Sources */,
+				CAA2AC4717612380006A9519 /* CommonController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +322,7 @@
 				CACF2CFC1757A948001B6000 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
